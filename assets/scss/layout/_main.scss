@@ -1,0 +1,31 @@
+main{
+  padding-top:  $header-height; 
+  height:  100%;
+  position:  relative;
+}
+
+.main-section{
+  width:  calc(100% - #{$aside-width});
+  margin-left:  auto;
+  padding:  30px; 
+
+}
+
+@media (max-width: 991px){
+  .main-section{
+    width:100%;
+  }
+}
+
+.nav-open .wrapper{
+  transform: translate3d(-250px, 0, 0);
+}
+
+.wrapper{
+  min-height: 100vh;
+  position: relative;
+  z-index: 4;
+  background: $primary;
+  transition: all 1s linear;
+  transform: translate3d(0, 0, 0);
+}

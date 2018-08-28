@@ -1,0 +1,28 @@
+header{
+  position:  fixed;
+  width:  100%;
+  height:  $header-height;
+  z-index: 5;
+}
+
+.navbar{
+  border-bottom:  1px solid  $brand-grey;
+  padding: 0 16px !important;
+  height: 100%;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding: 16px 12px !important;
+}
+
+.navbar-light .navbar-nav .active >.nav-link{
+  background: $primary-color;
+
+}
+
+.navbar-toggle {
+  border: 0;
+  outline: 0 !important;
+}
+
+

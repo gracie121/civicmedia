@@ -1,0 +1,60 @@
+.left-aside{
+  background:  #fff;
+  width:  $aside-width;
+  position: fixed;
+  height:  100%;
+  border-right:  1px solid $brand-grey;
+  z-index: 2;
+    
+}
+
+ul.menus{
+  padding:  0;
+  margin:  0;
+  list-style-type:  none;
+  // border-top:  1px solid #e7e7e7;
+}
+
+.menus [class*='icon-']{
+  width:  70px;
+  text-align:  center;
+  align-self:  center;
+  font-size:  20px;
+  border-right:  1px solid $brand-grey;
+  padding:  20px 0;
+
+}
+
+.menus p{
+  flex:  1;
+  margin-bottom:  0;
+  align-self:  center;
+  padding-left:  15px; 
+}
+
+
+.menus li{
+  border-bottom:  1px solid $brand-grey;
+}
+
+.menus li a{
+  color:  $brand-dark;
+  text-decoration: none;
+}
+
+.menus-grey{
+  background:  $primary-color;
+}
+
+.right-aside{
+  position: fixed;
+  width:  250px;
+  right:  0;
+  height:  100%;
+  background: #fff;
+  z-index: 3;
+  transition:  all is linear;
+  transform:  translate3d(0, 0, 0);
+  top:  0;
+
+}

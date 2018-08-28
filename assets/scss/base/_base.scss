@@ -1,0 +1,14 @@
+body{
+  background-color: #EEE;
+}
+@media (min-width: 991px){
+  .hidden-lg{
+    display: none;
+  }
+}
+
+@media (max-width: 991px){
+  .hidden-xs{
+    display: none;
+  }
+}
